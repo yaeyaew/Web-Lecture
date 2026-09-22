@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML TEXT Basic
+        </title>
+    </head>
+    <body>
+        <a bref="http://www.naver.com">
+        <a bref="http://www.google.com">
+    </body>
+</html>
