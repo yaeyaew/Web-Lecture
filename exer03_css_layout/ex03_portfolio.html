@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            width: 800px;
+            margin: 10px auto;
+        }
+
+        #top {
+            background: rgb(162, 62, 62);
+            color: white;
+            padding: 22px;
+            text-align: center;
+        }
+
+        nav {
+            background: red;
+        }
+
+        nav a {
+            float: left;
+            width: 20%;
+            padding: 15px 0;
+            color: white;
+            text-align: center;
+        }
+
+        #middle {
+            width: 800px;
+        }
+
+        #left {
+            float: left;
+            width: 20%;
+            height: 250px;
+            background: pink;
+            font-size: 14px;
+        }
+
+        #center {
+            float: left;
+            width: 60%;
+            height: 250px;
+            background: white;
+        }
+
+        #right {
+            float: right;
+            width: 20%;
+            height: 250px;
+            background: pink;
+        }
+
+        #left h3,
+        #center h2,
+        #right h3 {
+            color: red;
+        }
+
+        .item {
+            background: pink;
+            border: 1px solid red;
+            padding: 1px;
+            margin: 10px;
+        }
+
+        #bottom {
+            
+            background: red;
+            color: white;
+            padding: 1%;
+            font-size: 9px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="top">
+        <h1>MY PORTFOLIO</h1>
+        <p>Frontend Web Developer</p>
+    </div>
+
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#project">PROJECT</a>
+        <a href="#skill">SKILL</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div id="middle">
+        <div id="left">
+            <h3>PROFILE</h3>
+            <p>이름: 홍길동</p>
+            <p>학과: 컴퓨터소프트웨어</p>
+            <p>이메일:</p>
+            <p>user@email.com</p>
+        </div>
+
+        <div id="center">
+            <h2>PROJECTS</h2>
+
+            <div class="item">
+                <h3>Project 1</h3>
+                <p>웹 프로그래밍을 이용한 프로젝트입니다.</p>
+            </div>
+
+            <div class="item">
+                <h3>Project 2</h3>
+                <p>HTML과 CSS를 활용한 프로젝트입니다.</p>
+            </div>
+        </div>
+
+        <div id="right">
+            <h3>SKILLS</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>React</p>
+        </div>
+    </div>
+
+    <div id="bottom">
+        <p>Copyright 2026 My Portfolio</p>
+    </div>
+
+</body>
+</html>
