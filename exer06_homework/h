@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>나의 식물 관리</title>
+
+    <style>
+        body {
+            background-color: beige;
+            text-align: center;
+            font-family: Arial;
+            color: darkgreen;
+        }
+
+        h1 {
+            margin-top: 50px;
+        }
+
+        .plant {
+            background-color: white;
+            width: 250px;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        img {
+            width: 200px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        p {
+            color: seagreen;
+        }
+
+        button {
+            background-color: lightgreen;
+            color: darkgreen;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🌿 우니 정원이얌</h1>
+
+    <div class="plant">
+
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=500">
+
+        <h2>몬스테라</h2>
+
+        <p id="status1">잘 크고 이떵💚!</p>
+
+        <button onclick="status1.innerHTML='휴우 고마워 💚!'">
+            💧 물 주기
+        </button>
+
+    </div>
+
+    <div class="plant">
+
+        <img src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=500">
+
+        <h2>스투키</h2>
+
+        <p id="status2">물 줘 ㅠㅠ 💧</p>
+
+        <button onclick="status2.innerHTML='휴우 고마워 💚!'">
+            💧 물 주기
+        </button>
+
+    </div>
+
+</body>
+</html>
