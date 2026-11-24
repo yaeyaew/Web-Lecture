@@ -1,0 +1,22 @@
+.header {
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+
+.header h2 {
+    float: left;
+}
+
+.main {
+    float: left;
+    width: 65%;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    float: right;
+    width: 32%;
+    padding: 20px;
+}
